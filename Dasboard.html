@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio UI/UX Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #222;
+        }
+        .navbar .logo {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .navbar a:hover {
+            color: #ff6600;
+        }
+        .contact-btn {
+            background: none;
+            border: 2px solid #ff6600;
+            color: #ff6600;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .contact-btn:hover {
+            background: #ff6600;
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero-content {
+            max-width: 600px;
+        }
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        .hero span {
+            color: #ff6600;
+        }
+        .hero p {
+            font-size: 16px;
+            margin: 15px 0;
+            color: #ddd;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #ff6600;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #e65c00;
+        }
+        .profile-img {
+            width: 200px;
+            height: 250px;
+            border-radius: 50%;
+            border: 4px solid #ff6600;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+            .navbar a {
+                display: block;
+                margin: 10px 0;
+            }
+            .hero {
+                flex-direction: column;
+                padding: 30px 15px;
+            }
+            .hero h1 {
+                font-size: 28px;
+            }
+            .hero p {
+                font-size: 14px;
+            }
+            .profile-img {
+                width: 150px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">HAPPY BIRTHDAY</div>
+        <div class="nav-links">
+            <a href="">Home</a>
+            <a href="Tentang.html">Experience</a>
+            <a href="pengalaman.html">Portfolio</a>
+            <a href="study case.html">About Us</a>
+        </div>
+        <a href="Tentang.html" class="contact-btn">Let's Talk</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>HappyBirthDay <span>SALSABILANISA</span>,<br> Selamat mengulang hari kelahiran yang ke <span>20 tahun</span><br>sayangg</h1>
+            <p>Tepat pada hari ini <span>Tanggal 24 Mei 2025</span>,<br> kamu masih bisa menghirup udara segar dan melihat dunia yang begitu indah bukan! yaa walaupun banyak ujian yang kamu terima mungkin itu cara Tuhan membuat kamu lebih kuat kayak sekarang dan saya tidak menyangka Doa apa yang saya ucapkan dahulu sehingga bertemu perempuan sebaik dan sesabar kamu aku yakin ini bukan sekedar pertemuan mungkin ini takdir buat aku bisa melihat perempuan secantikk kamu.
+                Tepat pada tanggal 24 mei 2005,Pertama kali kamu melihat dunia yang di lahirkan oleh seorang ibu yang begitu luar biasa dan kamu terlahir sebagai tulang punggung keluarga yaitu anak pertama yang di beri nama <span>SALSABILANISA</span><br>  .</p>
+            <a href="About.html" class="btn">Hire me</a>
+        </div>
+        <img src="gambar 2.jpg" alt="Anggil Maulana" class="profile-img">
+    </div>
+
+</body>
+</html>
